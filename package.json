@@ -1,15 +1,15 @@
 {
-  "name": "bigone",
+  "name": "verkefni7",
   "version": "1.0.0",
-  "description": "",
+  "description": "Stórt Verkefni 1",
   "main": "index.js",
   "scripts": {
     "browser-sync": "browser-sync start --server --files index.html styles.css",
     "sass": "node-sass styles.scss styles.css -w",
     "dev": "npm-run-all --parallel sass browser-sync",
     "lint": "stylelint styles.scss --syntax scss"
-},
-  "author": "",
+  },
+  "author": "Þór, Birkir",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.13",
@@ -19,5 +19,13 @@
   },
   "dependencies": {
     "node-sass": "^4.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peturs94/bigOne.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Peturs94/bigOne/issues"
+  },
+  "homepage": "https://github.com/Peturs94/bigOne#readme"
 }
