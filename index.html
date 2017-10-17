@@ -1,16 +1,137 @@
-<!DOCTYPE html>
-<html lang="is">
-  <head>
-    <meta charset="utf-8">
-    <title>Um Mig</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1>VELKOMIN!</h1>
-    <p>Ég heiti Þór Pétursson og er meðalgreindur latte lepjandi hóra.</p>
-    <p>Bý hvergi annar staðar en í 101 Rvk</p>
-    <p>Stunda nám í Tölvunarfræði við Háskóla Íslands</p>
-    <img src="pic_thor.jpg" alt="Rvk hóra" style="width:374px;height:604px;">
-    <p><a href="index.html">Forsíða</a></p>
-  </body>
+<!doctype html>
+<html class="grid" lang="is">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The bigOne </title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Roboto+Slab:400,700" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="styleguide.css"> -->
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="navbar__rel">
+    <div class="navbar col col-12">
+      <div class="navbar__ab">
+        <a class="navbar__index" href="index.html">Fooþjónusta</a>
+      </div>
+      <a class="button button--nav__2" href="about.html">Um</a>
+      <a class="button button--nav" href="buy.html">Kaupa</a>
+    </div>
+  </div>
+
+  <header class="header header__1">
+    <h1 class="heading heading__one">Í fyrsta skipti á Íslandi</h1>
+    <h2 class="heading heading__two">Fooþjónustan</h2>
+    <a class="button button--normal" href="buy.html">Kaupa</a>
+  </header>
+
+  <main>
+    <div class="forsida forsida__slagordflex">
+      <div class="forsida forsida__slagord">
+        <div class="forsida forsida__checkogtext">
+          <img src="gogn/check.svg" alt="check1" class="myndir myndir__check">
+          <div class="forsida forsida__text">
+            <h3>Ódýr og góð þjónusta</h3>
+            <p>Gerir nákvæmlega það sem þú býst við. Ekki láta þessa frábæru nýjung framhjá þér fara.</p>
+          </div>
+        </div>
+        <div class="forsida forsida__checkogtext">
+          <img src="gogn/check.svg" alt="check2" class="myndir myndir__check">
+          <div class="forsida forsida__text">
+            <h3>Þægilegt í amstri dagsins</h3>
+            <p>Eftir nokkra daga munt þú aldrei geta verið án Fooþjónustunnar.</p>
+          </div>
+        </div>
+        <div class="forsida forsida__checkogtext">
+          <img src="gogn/check.svg" alt="check3" class="myndir myndir__check">
+          <div class="forsida forsida__text">
+            <h3>Nauðsynlegt á hvert heimili</h3>
+            <p>Hvort sem er fyrir einstaklinga eða stórfjölskyldur.</p>
+          </div>
+        </div>
+      </div>
+      <img src="gogn/image.jpg" alt="mynd 1" class="myndir myndir__1">
+    </div>
+
+    <div class="forsida forsida__profilemyndir">
+      <div class="forsida forsida__profileflex">
+        <img src="gogn/profile1.jpg" alt="profilemynd1" class="myndir myndir__profilemynd">
+        <div class="forsida forsida__profiletexti">
+          <p class="p p__italic">„Ég get engan veginn hugsað mér lífið án þessarar þjónustu!“</p>
+          <p class="p p__nafn">Anna Jóns</p>
+          <p class="p p__askrift">Áskrifandi í þrjá mánuði</p>
+        </div>
+      </div>
+      <div class="forsida forsida__profileflex">
+        <img src="gogn/profile2.jpg" alt="profilemynd2" class="myndir myndir__profilemynd">
+        <div class="forsida forsida__profiletexti">
+          <p class="p__italic p__italic__2">„Vá, þetta breytir öllu!“</p>
+          <p class="p p__nafn">Siggi Páls</p>
+          <p class="p p__askrift">Áskrifandi í tvo daga</p>
+        </div>
+      </div>
+      <div class="forsida forsida__profileflex">
+        <img src="gogn/profile3.jpg" alt="profilemynd3" class="myndir myndir__profilemynd">
+        <div class="forsida forsida__profiletexti">
+          <p class="p__italic p__italic__2">„A+++, mun aldrei hætta í áskrift“</p>
+          <p class="p p__nafn">Jón Guðrúnarson</p>
+          <p class="p p__askrift">Áskrifandi í ár</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="forsida forsida__bida">
+      <h3 class="heading heading__ibottom">Eftir hverju ert þú að bíða?</h3>
+      <a class="button button--big" href="buy.html">Kaupa</a>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="row footer__content">
+
+      <div class="col col-3 col-sms-1">
+      </div>
+
+      <div class="col col-3 col-sms-5">
+        <div class="footer__text">
+          <p>Fooþjónustan</p>
+          <p>123-4567</p>
+        </div>
+      </div>
+
+      <div class="col col-3 col-sms-5">
+        <div class="footer__text">
+          <p>Opið 12-13 alla daga</p>
+          <p>Bargata 1</p>
+          <p>900 Foobar</p>
+        </div>
+      </div>
+
+      <div class="col col-3 col-sms-1">
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col col-4 col-sms-3">
+      </div>
+
+      <div class="col col-4 col-sms-6">
+        <div class="footer__textbot">
+          <p>© Fooþjónustan 2017</p>
+        </div>
+      </div>
+
+      <div class="col col-4 col-sms-3">
+      </div>
+
+    </div>
+
+  </footer>
+</body>
+
 </html>

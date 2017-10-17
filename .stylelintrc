@@ -2,5 +2,5 @@
   "extends": "stylelint-config-primer",
   "rules": {
     "plugin/no-unsupported-browser-features": null
-    }
+  }
 }
