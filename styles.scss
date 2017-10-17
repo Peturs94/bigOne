@@ -1,0 +1,12 @@
+$max-width: 1400px;
+$color: #f0f;
+
+body { /* stylelint-disable-line*/
+  background-color: $color;
+}
+
+main {/* stylelint-disable-line*/
+  max-width: $max-width;
+  margin: 0 auto;
+
+}
